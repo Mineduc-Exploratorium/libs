@@ -8,6 +8,7 @@ define([
 	  	tagName: "g",
 
 		initialize : function(options) {
+			//
 			// Si no viene parámetro el, es necesario crear un nuevo elemento en el namespace de SVG (no basta this.$el)
 			this.svg = (options && options.svg) ? options.svg : document.createElementNS('http://www.w3.org/2000/svg', this.tagName);
 			this.x = (options && options.x) ? options.x : d3.scale();
