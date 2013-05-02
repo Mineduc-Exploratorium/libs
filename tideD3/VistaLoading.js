@@ -1,3 +1,4 @@
+// file: VistaLoading.js
 define([
   'underscore',
   'backbone',
