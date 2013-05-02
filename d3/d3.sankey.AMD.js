@@ -1,3 +1,3 @@
-define(['libs/d3/sankey'], function() { 
-  return d3.sankey; 
+define(['libs/d3/sankey', 'libs/d3/d3.AMD'], function(d3sankey, d3) { 
+  return d3sankey; 
 });
