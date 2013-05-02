@@ -28,10 +28,10 @@ define([
 		*/
 		initialize: function() {
 			// Si no viene parámetro el, es necesario crear un nuevo elemento en el namespace de SVG (no basta this.$el)
-			this.svg = (options && options.svg) ? options.svg : document.createElementNS('http://www.w3.org/2000/svg', "g");
-			this.scale = (options && options.scale) ? options.scale : d3.scale.ordinal();
-			this.left = (options && options.left) ? options.left : 800;
-			this.top = (options && options.top) ? options.top : 0;
+			this.svg = (this.options && this.options.svg) ? this.options.svg : document.createElementNS('http://www.w3.org/2000/svg', "g");
+			this.scale = (this.options && this.options.scale) ? this.options.scale : d3.scale.ordinal();
+			this.left = (this.options && this.options.left) ? this.options.left : 800;
+			this.top = (this.options && this.options.top) ? this.options.top : 0;
 			this.render();
 		},
 
