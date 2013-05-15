@@ -43,7 +43,7 @@ define([
 		render: function() {
 			this.$indicator = $("<div>");
 			this.$indicator.append("<progress>");
-			this.$indicator.append("<label>Cargando ...</label>");
+			this.$indicator.append("<label>Cargando datos ...</label>");
 
 			this.$el.append(this.$indicator);
 		}
