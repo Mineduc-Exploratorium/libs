@@ -1,3 +1,3 @@
-define(['libs/d3/d3.v3.min'], function() { 
+define(['d3'], function() { 
   return d3; 
 });
